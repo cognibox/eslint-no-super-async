@@ -1,5 +1,5 @@
 {
-  "name": "eslint-no-super-async",
+  "name": "eslint-plugin-no-super-async",
   "version": "1.0.0",
   "description": "Disallow calls to super in async methods",
   "main": "index.js",
