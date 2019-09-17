@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-no-super-async",
+  "version": "1.0.0",
+  "description": "Disallow calls to super in async methods",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/eslint/bin/eslint.js .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognibox/eslint-no-super-async.git"
+  },
+  "keywords": [
+    "eslint",
+    "no",
+    "super",
+    "async"
+  ],
+  "author": "Cognibox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognibox/eslint-no-super-async/issues"
+  },
+  "homepage": "https://github.com/cognibox/eslint-no-super-async#readme",
+  "devDependencies": {
+    "@cognibox/eslint-config-cbx": "^1.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^6.4.0",
+    "karma": "^4.3.0",
+    "mocha": "^6.2.0"
+  }
+}
