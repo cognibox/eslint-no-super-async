@@ -1,8 +1,8 @@
 {
   "name": "@cognibox/eslint-plugin-no-super-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallow calls to super in async methods",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "node_modules/eslint/bin/eslint.js .",
     "test": "mocha"
